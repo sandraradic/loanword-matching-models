@@ -22,6 +22,6 @@ def extract_tweets(conllu_file, output_file):
 
 if __name__ == "__main__":
     output_path = "output/tweets_all_raw.xlsx"
-    intput_path = "reldi-normtagner-sr.conllup"
+    intput_path = "input/reldi-normtagner-sr.conllup"
     extract_tweets(intput_path, output_path)
 
